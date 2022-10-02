@@ -2,7 +2,7 @@
 
 <html>
     <div >  
-        <a href="www.chamosppg.com"> <img src="[https://jamdos.ga/img/comprobar.png" alt="](https://user-images.githubusercontent.com/113720204/193478870-629b7cd2-8d0e-425c-9eae-83eae1f4a3ed.jpg)"></a>
+        <a href="www.chamosppg.com"> <img src="https://user-images.githubusercontent.com/113720204/193478870-629b7cd2-8d0e-425c-9eae-83eae1f4a3ed.jpg"></a>
         <div>
             <h1>Sitio Web @ChamosPPG</h1>
             <h2>Sitio Web Desarrollo con:</h2>
