@@ -1,0 +1,83 @@
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+////////////////////////////////////////////////////////////
+
+/* PAGINAS DE EVENTOS */
+
+body {
+    min-width: 760px;
+}
+
+main {
+    padding: 0 80px 0 80px;
+}
+
+.tituloeventos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c39839;
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+.proximo-evento {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.eventos-general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.eventos-item {
+    display: flex;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.proximo-evento img {
+    width: 300px;
+    height: 400px;
+}
+
+.eventos-item img {
+    width: 300px;
+    height: 400px;
+}
+
+@media only screen and (max-width:1000px) { 
+    .eventos-general {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tituloeventos{
+        font-size: 35px;
+        padding: 70px 0 100px;
+    }
+
+    .proximo-evento {
+        justify-content: space-around
+    }
+
+    .eventos-item {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .proximo-evento img {
+        width: 490px;
+        height: 590px;
+    }
+
+    .eventos-item img {
+        width: 500px;
+        height: 600px;
+    }
+}

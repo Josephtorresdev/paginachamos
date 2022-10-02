@@ -1,0 +1,96 @@
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+////////////////////////////////////////////////////////////
+
+/* FOOTER */
+
+footer{
+    background: #CCCCCC;
+    border-top: solid 2px #c39839;
+}
+
+.footer-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.titulo-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #c39839;
+    padding: 40px 20px 10px 20px;
+}
+
+.footer-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+    line-height: 2;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item:hover{
+    font-weight: bold;
+    color: #c39839;
+    text-decoration: underline;
+}
+
+.producciones-gilber {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 60px 0 10px 0;
+}
+
+.politica {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
+body, html {
+    overflow-x: hidden !important;
+} 
+
+@media only screen and (max-width:960px) { 
+    .footer-general {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-items {
+        width: 80%;
+    }
+
+    .titulo-footer {
+        font-size: 30px;
+    }
+    
+    .footer-item {
+        font-size: 30px;
+    }
+
+    .producciones-gilber {
+        font-size: 20px;
+    }
+    
+    .politica {
+        font-size: 20px;
+    }
+
+}

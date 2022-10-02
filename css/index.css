@@ -1,0 +1,227 @@
+/*//////////////////////////////////////////////////////////
+////             DESARROLLADO POR JOSEPH TORRES         ////
+////    https://josephtorresdev.github.io/portafolio/   ////
+////                                                    ////
+////////////////////////////////////////////////////////////
+
+/*PAGINA PRINCIPAL*/
+
+body {
+    min-width: 760px;
+}
+
+main {
+    padding: 0 80px 0 80px;
+}
+
+/* QUIENES SOMOS */
+
+.quienessomos {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 50px 0;
+}
+
+.quienessomos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-quienessomos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c39839;
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+.parrafo-quienes-somos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 30px 0 30px;
+    line-height: 1.3;
+}
+
+.quienessomos-img {
+    display: flex;
+}
+
+.quienessomos-img img {
+    width: 600px;
+    height: 350px;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image:url(../img/event.jpg); 
+    padding: 100px 0 100px 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.servicios-item {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 25%;
+    background: rgba(12,12,12,0.69);    
+}
+
+.titulo-servicios {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c39839;
+    padding: 30px 0 30px 0;
+    margin: 0 auto 0 auto;
+}
+
+.parrafo-servicios {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 1.4;
+    padding: 0 20px 0 20px;
+}
+
+
+/* EVENTOS */
+
+
+.main-eventos {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #C3C3C3;
+}
+
+.titulo-eventos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c39839;
+    padding: 60px 0 50px 0;
+    text-align: center;
+}
+
+.div-eventos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item-eventos {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 30px 0;
+}
+
+.item-eventos img {
+    width: 300px;
+    height: 400px;
+}
+
+.div-boton {
+    padding: 50px 0 50px;
+}
+
+.boton-ver-mas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #c39839;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10%;
+    transition: .8s;
+}
+
+.boton-ver-mas:hover {
+    background: black;
+    color: #c39839;
+}
+
+body, html {
+    overflow-x: hidden !important;
+} 
+
+@media only screen and (max-width:960px) {
+
+    main {
+        padding: 0 0 0 0;
+    }
+
+    .quienessomos {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0px 0 50px 0;
+    }
+
+    .titulo-quienessomos {
+        font-size: 35px;
+    }
+
+    .parrafo-quienes-somos {
+        font-size: 25px;
+        padding: 0 100px 0 100px;
+    }
+        
+    .quienessomos-img img {
+        width: 800px;
+        height: 450px;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios img {
+        max-width: 850px;
+    }
+    
+    .servicios-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .titulo-servicios {
+        font-size: 25px;
+    }
+    
+    .parrafo-servicios {
+        font-size: 25px;
+        padding: 0 60px 0 60px;
+    }
+
+    .titulo-eventos {
+        font-size: 35px;
+    }
+
+    .div-eventos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-eventos img {
+        width: 500px;
+        height: 600px;
+    }
+
+    .boton-ver-mas {
+        font-size: 25px;
+    }
+}
+
+
+
+
