@@ -1,4 +1,3 @@
-# paginachamos 
 
 <html>
     <div >  
@@ -22,7 +21,7 @@
                 <li>Formulario de contacto</li>
             </ul>  
             <p style="width: 600px; text-align: justify;">Es un Sitio Web responsivo bastante sencillo adaptado a las especificaciones del cliente, con animaciones sencillas realizadas con la librería SCROLLREVEAL, un formulario de contacto configurado con el método POST y un API externo para enviar la información por medio de correo eletrónico.</p>  
-            <a href="www.chamosppg.com">Link Sitio Web: WWW.CHAMOSPPG.COM</a>
+            <a href="www.chamosppg.com">Link Sitio Web: WWW.CHAMOSPPG.COM (En desarrollo)</a>
         </div>
         <div>
             <h2>Desarrollador Joseph Torres</h2>
@@ -32,3 +31,6 @@
         </div>
     </div>
 </html>
+
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
