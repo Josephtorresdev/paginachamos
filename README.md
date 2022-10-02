@@ -30,7 +30,11 @@
             <div><a href="https://wa.link/40npte" target="_blank">WhatsApp</a></div>        
         </div>
     </div>
+    
+    <div>
+    <p align="left">
+        <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+    </p>
+    </div>
 </html>
-
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
