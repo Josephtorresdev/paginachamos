@@ -27,11 +27,10 @@
             <h2>Desarrollador Joseph Torres</h2>
             <div><a href="https://josephtorresdev.github.io/portafolio/" target="_blank">Perfil de Github</a></div>
             <div><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jamdossoporte@gmail.com" target="_blank">Correo: Josephbrit@gmail.com</a></div>
-            <div><a href="https://wa.link/40npte" target="_blank">WhatsApp</a></div>        
+            <div><a href="https://wa.link/40npte" target="_blank">WhatsApp</a></div>
+            <br>
+            <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
         </div>
-        
-        <br>
-        <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
     </div>
 </html>
 
